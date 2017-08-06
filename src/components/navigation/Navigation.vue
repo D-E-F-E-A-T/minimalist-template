@@ -1,14 +1,17 @@
 <template>
     <div>
         <text-image :image="MainBackground">
-            ssss
+            <template>
+                <navbar></navbar>
+            </template>
         </text-image>
     </div>
 </template>
 
 <script>
 import TextImage from '../text-image/TextImage';
-import MainBackground from '../../assets/images/background-two.jpg';
+import MainBackground from '../../assets/images/background.jpeg';
+import Navbar from './Navbar';
 
 export default {
     name: 'navigation',
@@ -18,7 +21,8 @@ export default {
         };
     },
     components: {
-        TextImage
+        TextImage,
+        Navbar
     }
 };
 </script>
