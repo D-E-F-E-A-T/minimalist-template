@@ -2,9 +2,10 @@
     <div class="nav-container">
         <logo></logo>
         <ul class="menu">
+            <item-menu label="Home"></item-menu>    
             <item-menu label="About"></item-menu>
             <item-menu label="Services"></item-menu>
-            <item-menu label="Princig"></item-menu>
+            <item-menu label="Pricing"></item-menu>
             <item-menu label="Contact"></item-menu>
         </ul>
     </div>
@@ -29,16 +30,13 @@ export default {
     display: flex;
     justify-content: center;
     padding: {
-        left: 2rem;
-        right: 2rem;
-        top: 1rem;
+        top: 2rem;
         bottom: 1rem;
     }
     >.menu {
         display: flex;
         align-items: center;
-        list-style: none;
-        // border:solid 1px blue;
+        list-style: none; // border:solid 1px blue;
     }
 }
 </style>
