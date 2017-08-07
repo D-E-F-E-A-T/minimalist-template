@@ -1,9 +1,8 @@
 <template>
-    <div class="container">
+    <div class="container" :style="{'background-image':`url(${image})`}">
         <div class="dark-bg">
             <slot></slot>
         </div>
-        <div class="img" :style="{'background-image':`url(${image})`}"></div>
     </div>
 </template>
 
@@ -21,19 +20,13 @@ export default {
 
 <style lang="scss" scoped>
 .container {
-    position: relative;
-    max-height: 700px;
-    overflow: hidden;
-    > .img{
-        width: 100%;
-        height:750px;
-        background-size: cover;
-    }
+    width: 100%;
+    background-size: cover;
+    height: 750px;
     .dark-bg {
-        position: absolute;
+        height:100%;
         width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.5);
+        background: rgba(0, 0, 0, 0.7);
     }
 }
 </style>

@@ -26,7 +26,6 @@ export default {
 
 <style lang="scss" scoped>
 .nav-container {
-    // border:solid 1px purple;
     display: flex;
     justify-content: center;
     padding: {
@@ -36,7 +35,7 @@ export default {
     >.menu {
         display: flex;
         align-items: center;
-        list-style: none; // border:solid 1px blue;
+        list-style: none;  
     }
 }
 </style>
