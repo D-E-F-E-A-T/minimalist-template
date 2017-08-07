@@ -21,6 +21,6 @@ export default {
     flex-direction:column;
     text-align:center;
     p{
-    }
+     }
 }
 </style>
