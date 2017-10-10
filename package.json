@@ -1,10 +1,10 @@
 {
-  "name": "webpack-boilerplate",
-  "version": "3.0.0",
-  "description": "Plain webpack 3 Boilerplate with Babel, SASS and lodash on board",
-  "author": "Christoph von Gellhorn",
+  "name": "minimalist-template",
+  "version": "0.0.1",
+  "description": "A simple and minimalist template",
+  "author": "Marcos Vinicius de Oliveira",
   "license": "MIT",
-  "homepage": "https://github.com/cvgellhorn/webpack-boilerplate",
+  "homepage": "",
   "scripts": {
     "dev": "cross-env NODE_ENV=dev webpack-dev-server --progress --config webpack.config.dev.js",
     "build": "webpack -p --progress --config webpack.config.build.js"

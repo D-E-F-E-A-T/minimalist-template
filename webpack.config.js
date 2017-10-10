@@ -39,8 +39,7 @@ module.exports = {
         }),
 
         new HtmlWebpackPlugin({
-            template: path.join(__dirname, 'index.ejs'),
-            title: appHtmlTitle
+            template: path.join(__dirname, 'index.html')
         })
     ],
     module: {
